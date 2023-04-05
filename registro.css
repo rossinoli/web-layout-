@@ -15,13 +15,45 @@ body {
     align-items: center;
 }
 
-.container {
+header h1{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type:none;
+    background-color: rgb(255, 48, 53);
+    overflow: hidden;
+}
+
+nav li{
+    float: left;
+    
+    }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+}
+
+nav a:hover{
+    background-color: white;
+    color:rgb(255, 48, 53);
+}
+
+.card {
     background-color: #fafafa;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    width: 400px;
+    width: 100%;
     max-width: 100%;
     overflow: hidden;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .header {
@@ -77,3 +109,17 @@ body {
     border-radius: 10px;
     padding: 10px;
 }
+
+
+@media screen and (max-width: 999px) {
+    .card{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .card{
+        width: 80%;
+    }
+    }
+
