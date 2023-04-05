@@ -6,9 +6,6 @@ Rosa vibrante: #FF1493
 Azul turquesa: #00FFFF
 Laranja intenso: #FFA500*/
 /*
-rgb(84, 255, 252)
-rgb(255, 84, 87)
-
 rgb(255, 48, 53)
 rgb(48, 255, 250)
 */
@@ -166,3 +163,34 @@ footer p{
     text-align: right;
     font-size: 25px;
 }
+
+
+@media screen and (max-width: 850px) {
+    section, aside{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 775px){
+    #navbar li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    footer p{
+        display: none;
+    }
+}
+
+@media (min-width: 850px) {
+    #loca{
+        display: none;
+    }
+}
+
+
+
+
